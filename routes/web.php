@@ -29,4 +29,8 @@ Route::get ('/edit',  function () {
         return view('edit');
     });
 
+Route::get ('/about',  function () {
+        return view('about');
+    });
+
 
